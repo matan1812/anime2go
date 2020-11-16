@@ -8,7 +8,6 @@ router.get('/', (req, res, next) => {
   prodsModel.find()
   .then(data => {
     res.json(data);
-
   })
 });
 
